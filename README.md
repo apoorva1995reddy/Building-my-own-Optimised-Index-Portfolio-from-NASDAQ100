@@ -1,6 +1,6 @@
-# Building-my-own-Optimised-Index-Portfolio-from-NASDAQ100
+# Building my own index fund that outperforms NASDAQ 100 returns 
 
-# Objective: Integer Programming - Optimisation problem
+Objective: Integer Programming - Optimisation problem
 
 Constructing an index fund that tracks a specific broad market index could be done simply purchasing all
 the stocks in the index, with the same weights as in the index. However, this approach is impractical (many
@@ -9,7 +9,7 @@ the target population (n), seems desirable.
 
  I'm planning to create an Index fund with 25 stocks to track the NASDAQ-100 index. 
 
-# Approach : 
+Approach : 
 
 Step 1:  First, I will formulate an integer program that picks exactly 25 out of 100 stocks for my portfolio 
 Step 2:  Solving the integer problem using the similarity of daily returns among 100 stocks and some other constraints to arrive at the best pcik of 25 stocks
